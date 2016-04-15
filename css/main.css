@@ -105,3 +105,20 @@ html {
     transform: rotate(0);
   }
 }
+
+.people {
+  transition: people-bounce 250ms linear;
+}
+
+.js-people-animate {
+  animation: people-bounce 250ms linear;
+}
+
+@keyframes people-bounce {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
