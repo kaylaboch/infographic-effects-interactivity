@@ -106,19 +106,15 @@ html {
   }
 }
 
-.people {
-  transition: people-bounce 250ms linear;
-}
-
 .js-people-animate {
-  animation: people-bounce 250ms linear;
+  animation: bounce .2s linear;
 }
 
-@keyframes people-bounce {
+@keyframes bounce {
   0% {
-    transform: rotate(0);
+    transform: translateY(0);
   }
   100% {
-    transform: rotate(0);
+    transform: translateY(25px);
   }
 }
