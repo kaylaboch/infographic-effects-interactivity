@@ -66,7 +66,7 @@ html {
 .header {
   transform: translateY(0);
   transition: all .1s linear;
-  transform-origin: top;
+  transform-origin: center;
 }
 
 .header:hover {
@@ -88,7 +88,7 @@ html {
 
 .js-drinks-animate {
   opacity: 1;
-  animation: drinks-jiggle 200ms linear 1s;
+  animation: drinks-jiggle 200ms linear 2s;
 }
 
 @keyframes drinks-jiggle {
@@ -121,8 +121,20 @@ html {
 
 .creative {
   transition: all .5s linear;
+  animation: pulse 3s infinite;
 }
 .creative:hover {
-  opacity: 1;
-  animation: grow 200ms linear;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
