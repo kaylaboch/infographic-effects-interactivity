@@ -1,4 +1,4 @@
-var $drinks= ('.drinks');
+var $drinks= $('.drinks');
 
 $drinks.waypoint(function (direction) {
   if (direction == 'down') {
