@@ -1,0 +1,82 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  color: #efefef;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #d6e7f7;
+}
+
+.bar1 {
+  background-color: #ff5959;
+}
+
+.foot-er {
+  background-color: #5bb1e3;
+}
+
+.blue-circle {
+  position: relative;
+}
+
+.clock-hand1 {
+  transform-origin: 392px 225px;
+  animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
+
+}
+
+.clock-hand2 {
+  transform-origin: 392px 225px;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
+
+}
+
+.header {
+  transform: translateY(0);
+  transition: all .5s linear;
+  transform-origin: top;
+}
+
+.header:hover {
+  transform: translateY(-20px);
+}
+
+@keyframes slide {
+
+  0% { transform: translateX(-10px); }
+
+  100% { transform: translateX(10px); }
+
+}
