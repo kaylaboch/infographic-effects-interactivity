@@ -83,7 +83,7 @@ html {
 
 .drinks {
   opacity: 0;
-  transition: all 200ms ease-in
+  transition: all 200ms ease-in;
 }
 
 .js-drinks-animate {

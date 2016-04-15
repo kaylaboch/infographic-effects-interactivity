@@ -5,4 +5,5 @@ $drinks.waypoint(function (direction) {
     $drinks.addClass('js-drinks-animate');
   } else {
     $drinks.removeClass('js-drinks-animate');
-  }, { offset: '50%' });
+  }
+}, { offset: '50%' });
