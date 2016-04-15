@@ -65,7 +65,7 @@ html {
 
 .header {
   transform: translateY(0);
-  transition: all .5s linear;
+  transition: all .1s linear;
   transform-origin: top;
 }
 
@@ -83,12 +83,12 @@ html {
 
 .drinks {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .js-drinks-animate {
   opacity: 1;
-  animation: drinks-jiggle 250ms linear;
+  animation: drinks-jiggle 200ms linear;
 }
 
 @keyframes drinks-jiggle {
@@ -96,10 +96,10 @@ html {
     transform: rotate(0);
   }
   33% {
-    transform: rotate(15deg);
+    transform: rotate(10deg);
   }
   66% {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
   }
   100% {
     transform: rotate(0);
@@ -115,6 +115,6 @@ html {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(25px);
+    transform: translateY(50px);
   }
 }
