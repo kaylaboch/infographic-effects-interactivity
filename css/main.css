@@ -83,12 +83,12 @@ html {
 
 .drinks {
   opacity: 0;
-  transition: all 100ms ease-in;
+  transition: all 1ms ease-in;
 }
 
 .js-drinks-animate {
   opacity: 1;
-  animation: drinks-jiggle 200ms linear;
+  animation: drinks-jiggle 200ms linear 1s;
 }
 
 @keyframes drinks-jiggle {
@@ -117,4 +117,12 @@ html {
   100% {
     transform: translateY(50px);
   }
+}
+
+.creative {
+  transition: all .5s linear;
+}
+.creative:hover {
+  opacity: 1;
+  animation: grow 200ms linear;
 }
