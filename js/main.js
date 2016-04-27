@@ -7,7 +7,7 @@ $drinks.waypoint(function (direction) {
   } else {
     $drinks.removeClass('js-drinks-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
 
 $people.waypoint(function (direction) {
   if (direction == 'down') {
