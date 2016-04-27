@@ -15,4 +15,4 @@ $people.waypoint(function (direction) {
   } else {
     $people.removeClass('js-people-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
