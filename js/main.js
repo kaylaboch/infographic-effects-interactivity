@@ -1,5 +1,5 @@
-var $drinks= $('.drinks');
-var $people= $('.people');
+var $drinks = $('.drinks');
+var $people = $('.people');
 
 $drinks.waypoint(function (direction) {
   if (direction == 'down') {
