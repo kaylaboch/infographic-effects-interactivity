@@ -130,7 +130,7 @@ html {
 }
 
 @keyframes pulse {
-  
+
   0% {
     transform: translateY(0);
   }
