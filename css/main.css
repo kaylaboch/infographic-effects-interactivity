@@ -92,6 +92,7 @@ html {
 }
 
 @keyframes drinks-jiggle {
+
   0% {
     transform: rotate(0);
   }
@@ -111,6 +112,7 @@ html {
 }
 
 @keyframes bounce {
+
   0% {
     transform: translateY(0);
   }
@@ -128,6 +130,7 @@ html {
 }
 
 @keyframes pulse {
+  
   0% {
     transform: translateY(0);
   }
